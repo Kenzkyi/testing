@@ -8,8 +8,8 @@ const App = () => {
     try {
       const params = {
         format: "jsonv2",
-        lat: -34.44076,
-        lon: -58.70521,
+        lat: 6.524379,
+        lon: 3.379206,
       };
 
       const response = await axios.get(nominatimUrl, {
